@@ -1,0 +1,18 @@
+@import 'variables';
+@import 'mixins';
+/*
+Theme Name: Toronto Theme
+Theme URI: 
+Author: Germán Pla
+Author URI: https://www.germanpla.com/
+Description: Tema para agencia de viajes de Toronto
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: torontotheme
+Tags: html5, css3, agencia viajes, viajes, ciudades, themes
+*/
+body{
+    font-size: 14px;
+    background-color: $monza;
+} 
