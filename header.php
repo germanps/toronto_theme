@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="pingback" href="<?php bloginfo('pingback_url') ?>">
     <title><?php  ?></title>
+    <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
     <div id="page">
