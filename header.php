@@ -13,10 +13,11 @@
             <div class="container">
                 <h1 class="site-title">
                     <a href="<?php echo esc_url(home_url('/')); ?>">
-                        <?php bloginfo('name'); ?>
+                        <?php //bloginfo('name'); ?>
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg" alt="Logo del sitio">
                     </a>
                 </h1>
-                <h2 class="site-description"><?php bloginfo('description') ?></h2>
+                <!-- <h2 class="site-description"><?php //bloginfo('description') ?></h2> -->
             </div>
         
         </header>

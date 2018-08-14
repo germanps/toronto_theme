@@ -1,3 +1,3 @@
 <?php
-    echo "Desde la plantilla toronto";
+    echo "Desde la el index de la plantilla toronto";
 ?>
