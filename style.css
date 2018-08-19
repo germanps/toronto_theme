@@ -73,7 +73,8 @@ body {
 
 /*Header*/
 .site-header {
-  background-color: #dc0028; }
+  background-color: #dc0028;
+  margin-bottom: 1rem; }
   .site-header .container {
     display: flex;
     justify-content: space-between;
@@ -112,7 +113,8 @@ body {
 .flex-container {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start; }
+  align-items: flex-start;
+  margin-top: 2rem; }
 
 .primary {
   width: calc(100% - 450px);

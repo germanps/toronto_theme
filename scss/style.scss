@@ -75,6 +75,7 @@ body{
 /*Header*/
 .site-header{
 	background-color: $monza;
+	margin-bottom: 1rem;
 	.container{
 		display: flex;
 		justify-content: space-between;
@@ -129,6 +130,7 @@ body{
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;  
+	margin-top: 2rem;
 }
 .primary{
 	width: calc(100% - 450px);
