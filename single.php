@@ -13,8 +13,15 @@
         
         <div class="flex-container">
             <div id="primary" class="primary">
-                
-                <?php the_content(); ?>
+                <ul class="post-header-list">
+                    <li class="etiquetas"><?php the_tags(__('Etiquetas del post: '),', '); ?></li>
+                    <li class="categorias"> <?php _e('Categorizado en: '); the_category(', ')?></li>
+                    <li class="autor"><?php _e('Entrada por: '); the_author(); ?></li>
+                </ul>
+                <article id="post-<?php the_ID();?>" <?php post_class() ?>>
+                    <?php the_content(); ?>
+                    <?php //comments_template(); ?>
+                </article>
             </div>
         
     <?php endwhile; ?>
