@@ -18,6 +18,13 @@
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg" alt="Logo del sitio">
                     </a>
                 </h1>
+                <nav id="site-navigation" class="main-navigation" role="navigation">
+                    <?php wp_nav_menu( array( 
+                        'theme_location' => 'menu_principal',
+                        'menu_class' => 'menu-principal'
+                        ) 
+                    ); ?>
+                </nav>
                 <!-- <h2 class="site-description"><?php //bloginfo('description') ?></h2> -->
             </div>
         

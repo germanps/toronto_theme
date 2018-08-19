@@ -59,9 +59,18 @@ table {
   border-spacing: 0; }
 
 /*******Custom styles******/
+html {
+  font-size: 14rem;
+  line-height: 1.4;
+  color: #3d3d3d; }
+
 body {
   font-size: 14px;
   background-color: #fff; }
 
 header {
   background-color: #dc0028; }
+
+.container {
+  width: 1280px;
+  margin: 0 auto; }

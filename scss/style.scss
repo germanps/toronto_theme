@@ -60,11 +60,19 @@ table {
 	border-spacing: 0;
 }
 /*******Custom styles******/
-
+html{
+	font-size: 14rem;
+	line-height: 1.4;
+	color: $mineshaft;
+}
 body{
     font-size: 14px; 
     background-color: $white; 
 } 
 header{
     background-color: $monza;
+} 
+.container{
+	width: 1280px;
+	margin: 0 auto;
 }

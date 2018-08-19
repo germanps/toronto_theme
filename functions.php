@@ -6,4 +6,23 @@
     }
     add_action('wp_enqueue_scripts', 'theme_scripts');
 
+    //registrar menu
+    register_nav_menus(array(
+        'menu_principal' => __('Menu Principal', 'Toronto Theme')
+    ) );
+
+
+
+
+
+
+
+
+
+
+
+
+
+    add_filter('show_admin_bar', '__return_false');
+
 ?>
