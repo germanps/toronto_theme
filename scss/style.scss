@@ -158,6 +158,30 @@ body{
 	padding: 1rem 0;
 }
 
+/*Testimonios widgets*/
+.testimonios{
+
+	h3{
+		font-size: 1.5rem;
+		color: $monza;
+		margin-bottom: 1rem;
+	}
+	.textwidget{
+		font-size: 1.5rem;
+		line-height: 1.5;
+		color: $boulder;
+		background-image: url('img/svg_quote.svg');
+		background-repeat: no-repeat;
+		background-position: left top;
+		padding-left: 85px;
+
+		span{
+			display: block;
+			text-align: right;
+			font-style: italic;
+		}
+	}
+}
 
 
 
