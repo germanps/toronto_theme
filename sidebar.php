@@ -1,3 +1,3 @@
 <div id="secondary" class="secondary">
-    sidebar
+    <h2>sidebar</h2>
 </div>

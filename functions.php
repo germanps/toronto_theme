@@ -12,15 +12,10 @@
     ) );
 
 
-
-
-
-
-
-
-
-
-
+    //imagenes destacadas
+    add_theme_support('post-thumbnails');
+    //tamaños imágenes
+    add_image_size('destacada', 1200, 420, true);
 
 
     add_filter('show_admin_bar', '__return_false');
