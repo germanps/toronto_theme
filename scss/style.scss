@@ -65,7 +65,7 @@ html{
 	color: $mineshaft;
 }
 body{
-    font-size: 14px; 
+    font-size: 16px; 
     background-color: $white; 
 } 
 .container{
@@ -99,6 +99,9 @@ body{
 			align-items: center;
 			li{
 				margin-left: 1.2rem;
+				&:first-child{
+					margin-left: 0;
+				}
 				a{
 					text-decoration: none;
 					color: $white;
@@ -110,5 +113,43 @@ body{
 				}
 			}
 		}
+	}
+}
+
+
+
+
+
+
+/*Footer*/
+.site-footer{
+	margin-top: 2rem; 
+	.footer-navigation{
+		padding: 1rem 0;
+
+		.menu-footer{
+			display: flex;
+			li{
+				margin-right: 1.2rem;
+				&:last-child{
+					margin-right: 0;
+				}
+				a{
+					text-decoration: none;
+					color: $monza;
+					font-size: 1.2rem;
+					transition: .2s ease all;
+					&:hover{
+						color: $mineshaft; 
+					}
+				}
+			}
+		}
+	}
+	.copyright{
+		color: $mineshaft;
+		text-align: center;
+		padding: 1rem 0;
+		border-top: 3px solid $monza;
 	}
 }

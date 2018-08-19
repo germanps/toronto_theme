@@ -6,7 +6,7 @@
     }
     add_action('wp_enqueue_scripts', 'theme_scripts');
 
-    //registrar menu
+    //registrar menus
     register_nav_menus(array(
         'menu_principal' => __('Menu Principal', 'Toronto Theme')
     ) );
