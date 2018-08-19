@@ -96,15 +96,17 @@ body {
         margin-left: 1.2rem; }
         .site-header .main-navigation .menu-principal li:first-child {
           margin-left: 0; }
-        .site-header .main-navigation .menu-principal li .current-menu-item a {
-          color: #f19f30; }
+        .site-header .main-navigation .menu-principal li.current-menu-item a {
+          border-bottom: 2px solid #fff;
+          padding-bottom: .2rem; }
         .site-header .main-navigation .menu-principal li a {
           text-decoration: none;
           color: #fff;
           font-size: 1.2rem;
           transition: .2s ease all; }
           .site-header .main-navigation .menu-principal li a:hover {
-            color: #f19f30; }
+            color: #f19f30;
+            border-color: #f19f30; }
 
 /*Contenido primary principal*/
 .flex-container {

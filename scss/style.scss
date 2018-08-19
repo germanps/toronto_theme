@@ -102,9 +102,10 @@ body{
 				&:first-child{
 					margin-left: 0;
 				}
-				.current-menu-item{
+				&.current-menu-item{
 					a{
-						color: $fuelYellow;
+						border-bottom: 2px solid $white;
+						padding-bottom: .2rem;
 					}
 				}
 				a{
@@ -114,6 +115,7 @@ body{
 					transition: .2s ease all;
 					&:hover{
 						color: $fuelYellow; 
+						border-color: $fuelYellow;
 					}
 				}
 			}
