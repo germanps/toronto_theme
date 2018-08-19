@@ -102,6 +102,11 @@ body{
 				&:first-child{
 					margin-left: 0;
 				}
+				.current-menu-item{
+					a{
+						color: $fuelYellow;
+					}
+				}
 				a{
 					text-decoration: none;
 					color: $white;
@@ -116,6 +121,23 @@ body{
 	}
 }
 
+
+/*Contenido primary principal*/
+#contenido{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;  
+}
+.primary{
+	width: calc(100% - 450px);
+	padding: .5rem;
+}
+
+/*Contenido sidebar*/
+.secondary{
+	width: 450px;
+	padding: .5rem;
+} 
 
 
 

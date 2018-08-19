@@ -96,6 +96,8 @@ body {
         margin-left: 1.2rem; }
         .site-header .main-navigation .menu-principal li:first-child {
           margin-left: 0; }
+        .site-header .main-navigation .menu-principal li .current-menu-item a {
+          color: #f19f30; }
         .site-header .main-navigation .menu-principal li a {
           text-decoration: none;
           color: #fff;
@@ -103,6 +105,21 @@ body {
           transition: .2s ease all; }
           .site-header .main-navigation .menu-principal li a:hover {
             color: #f19f30; }
+
+/*Contenido primary principal*/
+#contenido {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+.primary {
+  width: calc(100% - 450px);
+  padding: .5rem; }
+
+/*Contenido sidebar*/
+.secondary {
+  width: 450px;
+  padding: .5rem; }
 
 /*Footer*/
 .site-footer {
