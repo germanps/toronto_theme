@@ -60,7 +60,6 @@ table {
 
 /*******Custom styles******/
 html {
-  font-size: 14rem;
   line-height: 1.4;
   color: #3d3d3d; }
 
@@ -68,9 +67,37 @@ body {
   font-size: 14px;
   background-color: #fff; }
 
-header {
-  background-color: #dc0028; }
-
 .container {
   width: 1280px;
   margin: 0 auto; }
+
+/*Header*/
+.site-header {
+  background-color: #dc0028; }
+  .site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .site-header .logo-wrapper {
+    width: 400px; }
+    .site-header .logo-wrapper a {
+      display: inline-block; }
+      .site-header .logo-wrapper a img {
+        max-width: 100%;
+        width: 100%;
+        height: auto; }
+  .site-header .main-navigation {
+    width: calc(100% - 400px); }
+    .site-header .main-navigation .menu-principal {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      .site-header .main-navigation .menu-principal li {
+        margin-left: 1.2rem; }
+        .site-header .main-navigation .menu-principal li a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 1.2rem;
+          transition: .2s ease all; }
+          .site-header .main-navigation .menu-principal li a:hover {
+            color: #f19f30; }

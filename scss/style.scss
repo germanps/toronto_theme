@@ -61,7 +61,6 @@ table {
 }
 /*******Custom styles******/
 html{
-	font-size: 14rem;
 	line-height: 1.4;
 	color: $mineshaft;
 }
@@ -69,10 +68,47 @@ body{
     font-size: 14px; 
     background-color: $white; 
 } 
-header{
-    background-color: $monza;
-} 
 .container{
 	width: 1280px;
 	margin: 0 auto;
+}
+/*Header*/
+.site-header{
+	background-color: $monza;
+	.container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.logo-wrapper{
+		width: 400px;
+		a{
+			display: inline-block;
+			img{
+				max-width: 100%;
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
+	.main-navigation{
+		width: calc(100% - 400px);
+		.menu-principal{
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			li{
+				margin-left: 1.2rem;
+				a{
+					text-decoration: none;
+					color: $white;
+					font-size: 1.2rem;
+					transition: .2s ease all;
+					&:hover{
+						color: $fuelYellow; 
+					}
+				}
+			}
+		}
+	}
 }
