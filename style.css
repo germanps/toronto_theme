@@ -120,6 +120,21 @@ body {
   width: calc(100% - 450px);
   padding-right: .5rem; }
 
+/*Front-page*/
+.widgets-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center; }
+  .widgets-home .widget-title {
+    display: none; }
+  .widgets-home .widget_sp_image-description {
+    padding: .5rem;
+    background-color: #dc0028;
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 1.2rem; }
+
 /*Contenido sidebar*/
 .secondary {
   width: 450px;

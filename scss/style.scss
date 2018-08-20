@@ -137,6 +137,24 @@ body{
 	padding-right: .5rem;
 }
 
+/*Front-page*/
+.widgets-home{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	text-align: center;
+	.widget-title{
+		display: none;
+	}
+	.widget_sp_image-description{
+		padding: .5rem;
+		background-color: $monza;
+		color: $white;
+		margin-top: 1rem;
+		font-size: 1.2rem;
+	}
+}
+
 /*Contenido sidebar*/
 .secondary{
 	width: 450px;
@@ -319,8 +337,6 @@ body{
 	}
 	
 }
-
-
 
 /*Footer*/
 .site-footer{
