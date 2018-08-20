@@ -8,7 +8,7 @@
         <div class="informacion">
             <?php $informacion = new WP_Query('page_id=8'); ?>
             <?php while($informacion->have_posts()) : $informacion->the_post(); ?>
-                <h3><?php the_title(); ?></h3>
+                <h2><?php the_title(); ?></h2>
                 <?php the_excerpt(); ?>
 
             <?php endwhile; wp_reset_postdata(); ?>
@@ -21,13 +21,18 @@
                 'order' => 'DESC',
                 'orderby' => 'date'
             );?>
+            
             <?php $consejos = new WP_Query($args); ?>
             <?php while($consejos->have_posts()) : $consejos->the_post(); ?>
-                <?php the_post_thumbnail('guia-toronto');?>
-                <h3><?php the_title() ?></h3>
+            <div class="consejo">
+                <a href="<?php the_permalink(); ?>">
+                    <?php the_post_thumbnail('guia-toronto');?>
+                    <h3><?php the_title() ?></h3>
+                </a>
                 <?php the_excerpt();?>
+            </div>
             <?php endwhile; wp_reset_postdata(); ?>
-
+            
         </div>
     </div>
 <?php get_footer(); ?>

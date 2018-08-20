@@ -125,7 +125,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 2rem; }
   .widgets-home .widget-title {
     display: none; }
   .widgets-home .widget_sp_image-description {
@@ -134,6 +135,29 @@ body {
     color: #fff;
     margin-top: 1rem;
     font-size: 1.2rem; }
+
+.informacion-consejos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; }
+  .informacion-consejos h2 {
+    font-size: 1.5rem;
+    color: #dc0028;
+    margin-bottom: 1rem; }
+  .informacion-consejos .informacion {
+    width: 320px; }
+  .informacion-consejos .consejos {
+    width: calc(100% - 320px);
+    padding-left: 1rem; }
+    .informacion-consejos .consejos .consejo {
+      width: 50%;
+      float: left; }
+      .informacion-consejos .consejos .consejo a {
+        text-decoration: none; }
+        .informacion-consejos .consejos .consejo a h3 {
+          font-size: 1.1rem;
+          color: #dc0028;
+          margin: 1rem 0; }
 
 /*Contenido sidebar*/
 .secondary {

@@ -143,6 +143,7 @@ body{
     align-items: center;
     justify-content: space-between;
 	text-align: center;
+	margin-bottom: 2rem;
 	.widget-title{
 		display: none;
 	}
@@ -152,6 +153,35 @@ body{
 		color: $white;
 		margin-top: 1rem;
 		font-size: 1.2rem;
+	}
+}
+.informacion-consejos{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	h2{
+		font-size: 1.5rem;
+		color: $monza;
+		margin-bottom: 1rem;
+	}
+	.informacion{
+		width: 320px;
+	}
+	.consejos{
+		width: calc(100% - 320px);
+		padding-left: 1rem;
+		.consejo{
+			width: 50%;
+			float: left;
+			a{
+				text-decoration: none;
+				h3{
+					font-size: 1.1rem;
+					color: $monza;
+					margin: 1rem 0;
+				}
+			}
+		}
 	}
 }
 
