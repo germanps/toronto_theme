@@ -291,6 +291,35 @@ body{
 	}
 }
 
+/*Contacto*/
+.page-id-14{
+	.primary.no-sidebar{
+		width: 100%;
+		h2{
+			color: $monza;
+			margin: 1rem 0;
+			font-size: 1.5rem;
+			text-align: center;
+		}
+		form{
+			label{
+				width: 100%;
+				height: 52px;
+				display: inline-block;
+				margin-bottom: 1rem;
+				input{
+					width: 100%;
+					height: 30px;
+				}
+				textarea{
+					width: 100%;
+				}
+			}
+		}
+	}
+	
+}
+
 
 
 /*Footer*/

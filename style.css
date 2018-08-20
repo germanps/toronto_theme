@@ -243,6 +243,25 @@ body {
     margin: 1rem 0;
     font-size: 1.5rem; }
 
+/*Contacto*/
+.page-id-14 .primary.no-sidebar {
+  width: 100%; }
+  .page-id-14 .primary.no-sidebar h2 {
+    color: #dc0028;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    text-align: center; }
+  .page-id-14 .primary.no-sidebar form label {
+    width: 100%;
+    height: 52px;
+    display: inline-block;
+    margin-bottom: 1rem; }
+    .page-id-14 .primary.no-sidebar form label input {
+      width: 100%;
+      height: 30px; }
+    .page-id-14 .primary.no-sidebar form label textarea {
+      width: 100%; }
+
 /*Footer*/
 .site-footer {
   margin-top: 2rem; }
