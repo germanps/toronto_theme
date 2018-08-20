@@ -263,6 +263,34 @@ body{
 		}
 	}
 }
+ 
+/*Single*/
+.post-header-list{
+	background-color: $iron; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+	padding: 5px;
+	li{
+		margin-bottom: .2rem;
+		a{
+			color: $monza;
+			text-decoration: none;
+
+		}
+	}
+}
+/*Consejos*/
+.consejo{
+	margin-bottom: 4rem;
+	.consejos-title{
+		color: $monza;
+		margin: 1rem 0;
+		font-size: 1.5rem;
+	}
+}
+
 
 
 /*Footer*/

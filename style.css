@@ -221,6 +221,28 @@ body {
     .post-toronto .info-post .autor span {
       color: #dc0028; }
 
+/*Single*/
+.post-header-list {
+  background-color: #D6D8D8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5px; }
+  .post-header-list li {
+    margin-bottom: .2rem; }
+    .post-header-list li a {
+      color: #dc0028;
+      text-decoration: none; }
+
+/*Consejos*/
+.consejo {
+  margin-bottom: 4rem; }
+  .consejo .consejos-title {
+    color: #dc0028;
+    margin: 1rem 0;
+    font-size: 1.5rem; }
+
 /*Footer*/
 .site-footer {
   margin-top: 2rem; }

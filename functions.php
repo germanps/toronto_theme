@@ -17,6 +17,7 @@
     //tamaños imágenes
     add_image_size('destacada', 1200, 420, true);
     add_image_size('guia-toronto', 350, 210, true);
+    add_image_size('consejos', 720, 380, true);
     //agregar los widgets
     function theme_widgets(){
         register_sidebar( array(
