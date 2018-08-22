@@ -159,6 +159,20 @@ body {
           color: #dc0028;
           margin: 1rem 0; }
 
+/*Category*/
+.categories h1 {
+  font-size: 1.5rem;
+  color: #dc0028;
+  margin: 1rem 0; }
+
+.categories .entrada-blog h2 {
+  font-size: 1.1rem;
+  color: #dc0028;
+  margin: 1rem 0; }
+
+.categories .contenido-entrada-blog a {
+  color: #dc0028; }
+
 /*Contenido sidebar*/
 .secondary {
   width: 450px;
