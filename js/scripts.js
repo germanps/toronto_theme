@@ -1,3 +1,5 @@
 (function($){
-    //console.log('scripts');
+    $('.bxslider').bxSlider({
+        auto: true
+    });
 })(jQuery);

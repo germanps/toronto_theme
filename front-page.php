@@ -1,5 +1,28 @@
 <?php get_header(); ?>
 
+    <div id="slider">
+        <div class="bxslider">
+            <?php $args = array(
+                'post_per_page' => 4,
+                'orderby' => 'date',
+                'order' => 'DESC',
+                'post_type' => 'post'
+            ); ?>
+
+            <?php $slider = new WP_Query($args); ?>
+            <?php while($slider->have_posts() ) : $slider->the_post() ?>
+
+                <div class="slider-item">
+                    <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('destacada'); ?></a>
+                </div>
+
+            <?php endwhile; wp_reset_postdata(); ?>
+
+            
+
+        </div>
+    </div>
+
     <div class="widgets-home">
         <?php dynamic_sidebar('front-page') ?>
     </div>
